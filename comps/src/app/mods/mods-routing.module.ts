@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import {ModsHomeComponent} from './mods-home/mods-home.component';
 const routes: Routes = [{
-  path:'mods',component:ModsHomeComponent
+  path:'',component:ModsHomeComponent
 }];
 
 @NgModule({
